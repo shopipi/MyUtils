@@ -1,3 +1,4 @@
+// グローバルIPを取得
 public static String getGlobalIP()
 {
     String html = null;
