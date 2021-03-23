@@ -28,6 +28,6 @@ void HitAnyKeyToContinue()
 // ランダムInt
 int Rand(int min, int max)
 {
-  srand((unsigned)time(NULL));
-  return (rand() % max) + min;
+    srand((unsigned)time(NULL));
+    return (rand() % max) + min;
 }
