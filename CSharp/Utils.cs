@@ -7,7 +7,7 @@ public static string getGlobalIP()
     try
     {
         wc.Encoding = Encoding.UTF8;
-        string html =   wc.DownloadString("https://www.ugtop.com/spill.shtml");
+        string html = wc.DownloadString("https://www.ugtop.com/spill.shtml");
         string[] elements1 = html.Split('>');
         string[] elements2 = elements1[42].Split('<');
         gIP = elements2[0];
